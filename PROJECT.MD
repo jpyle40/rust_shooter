@@ -1,0 +1,2 @@
+A shooter game app that looks professional. It is made entirely with Rust and Bevy. Install everything that is need to create the game. The controls will be keyboard command for move the direction of the weapon and shooting the bullets. The tagets will be moving across the screen and will get harder as you move up levels.
+The game will be 3D but fairly simple to create and will be able to implement and run using cargo run.

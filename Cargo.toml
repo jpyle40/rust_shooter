@@ -1,0 +1,13 @@
+[package]
+name = "neon-range"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.18.1", default-features = false, features = ["3d_bevy_render", "ui_bevy_render", "bevy_winit", "default_font", "multi_threaded", "png", "x11", "wayland", "tonemapping_luts", "zstd_rust"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
